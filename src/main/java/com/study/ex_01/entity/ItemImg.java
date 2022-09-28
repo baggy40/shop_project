@@ -1,7 +1,13 @@
 package com.study.ex_01.entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
+@Entity
+@Table(name="item_img")
+@Getter @Setter
 public class ItemImg extends BaseEntity{
 
     @Id
